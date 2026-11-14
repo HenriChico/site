@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'DT';
+    src: url('undertale-deltarune-extended-fixed.otf') format('truetype');
+    /* Se você colocou a fonte numa pasta chamada fonts, use: url('fonts/Undertale-Deltarune-Extended.ttf') */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Titulo {
+    text-align: center;
+}
+
+.Lancer {
+    text-align: center;
+    color: cadetblue;
+}
+
+body {
+    background-image: url("background.png"); /* Coloca o nome exato do teu ficheiro */
+    background-size: cover;
+    background-color: rgb(255, 255, 255); 
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "DT";
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Opcional: define uma largura máxima para a imagem não estourar a tela */
+    max-width: 100%; 
+    height: auto;
+}
